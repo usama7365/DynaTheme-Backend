@@ -112,6 +112,7 @@ backend/
     └── db.js           // MongoDB connection
 ```
 ### Contributing
+
 We welcome contributions from the community! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
