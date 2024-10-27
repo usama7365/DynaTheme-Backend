@@ -1,8 +1,10 @@
 const express = require("express");
 const router = express.Router();
 const bodyParser = require("body-parser");
-const { LoginController } = require("../controllers/Login.controllers");
-const { SignupController } = require("../controllers/signup.controller");
+const {
+  LoginController,
+  SignupController,
+} = require("../controllers/auth/auth");
 
 router.use(bodyParser.json());
 

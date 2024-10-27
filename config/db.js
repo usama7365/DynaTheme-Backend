@@ -8,7 +8,7 @@ const connectDB = async () => {
       socketTimeoutMS: 45000,
       family: 4, // Use IPv4, skip trying IPv6
     });
-    console.log("MongoDB Connected successfully".america.bold);
+    console.log("MongoDB Connected successfully".yellow.bold);
   } catch (error) {
     console.error("Error connecting to MongoDB:".red.bold, error);
     process.exit(1); // Exit the process with failure
